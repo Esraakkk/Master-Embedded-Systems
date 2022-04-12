@@ -1,0 +1,14 @@
+
+#include "stdio.h"
+int main()
+{
+    int num,i,factorial;
+    printf("Enter an integer:");
+    fflush(stdin); fflush(stdout);
+    scanf("%d",&num);
+    for(i=1;i<=num;i++ )
+    {
+        factorial*=i;
+    }
+    printf("factorial=%d",factorial);
+}
